@@ -1,0 +1,23 @@
+.width-devive {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 30px;
+    background-color: orangered;
+}
+
+p {
+    text-align: center;
+}
