@@ -32,7 +32,7 @@ let intervalId = setInterval(() => {
     cat.food -= Math.floor(Math.random() * (40-5) - 1);
     if (cat.food <= 0) {
         cat.food = 0;
-        setInterval(intervalId);
+        clearInterval(intervalId);
     }
     cat.checkState()
 }, 3000);
